@@ -1,0 +1,132 @@
+html body{
+    width: 100%;
+    height: 100vh;
+    background: #E5E7E9;
+}
+
+.componentBackground {
+    border: 1px solid blue;
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+    padding-top: 65px; /* Keeps the folder list below the navbar */
+    padding-bottom: 50px;
+}
+
+div.folderTab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    background: #F4F6F7;
+    text-align: center;
+}
+
+div img.folder{
+    margin: 0 25px 0 25px;
+    height: 40px;
+    width: 40px;
+}
+
+p.folderTextOff{
+    width: 50px;
+    justify-content: center;
+    font-size: .6em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+p.folderTextOn{
+    width: 50px;
+    justify-content: center;
+    font-size: .6em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    color: #2471A3;
+}
+
+.contentFiles{
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.itemStyleHorizontal{
+    margin: auto 10px;
+    width: 125px;
+    height: 75px;
+}
+
+.itemStyleVertical{
+    margin: 10px;
+    width: 75px;
+    height: 125px;
+    margin: auto 10px;
+}
+
+div.boxAround{
+    display: flex;
+/*    flex-wrap: wrap;*/
+    margin: 10px;
+    border: 1px solid black;
+    background: white;
+    height: 150px;
+    width: 300px;
+}
+
+div.contentDesc{
+    border: 1px solid blue;
+}
+
+div.nameFont{
+    border: 1px solid green;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+div.test{
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+}
+
+div img.imageStyle{
+    margin: 5px;
+    border: 1px solid yellow;
+    display: inline-block;
+    height: 25%;
+    width: 25%;
+}
+
+span.timeDuration{
+    border: 1px solid black;
+    font-size: .8em;
+}
+
+div.resolutionTag{
+    font-size: .8em;
+    border: 1px solid blue;
+}
+
+div.creationStyle{
+    margin-top: 8px;
+}
+
+span.createdFont{
+    border: 1px solid green;
+    font-size: .7em;
+}
+
+div span.timeFont{
+    border: 1px solid black;
+    margin-top: 2px;
+    font-size: .8em;
+    font-weight: bold;
+}
