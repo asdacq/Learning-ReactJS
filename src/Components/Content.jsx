@@ -49,7 +49,6 @@ class Content extends Component{
             iconOn: FolderIconOff,
         })
       }))
-        console.log(this.state.folderArray.length);
     }
     
     // Handle click on folder

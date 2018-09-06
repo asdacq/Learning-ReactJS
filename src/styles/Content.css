@@ -60,25 +60,41 @@ p.folderTextOn{
 
 .itemStyleHorizontal{
     margin: auto 10px;
-    width: 125px;
-    height: 75px;
+    width: 120px;
+    height: 90px;
 }
 
 .itemStyleVertical{
-    margin: 10px;
-    width: 75px;
-    height: 125px;
+    width: 90px;
+    height: 120px;
     margin: auto 10px;
 }
 
-div.boxAround{
+div.boxAroundOff{
     display: flex;
 /*    flex-wrap: wrap;*/
+    
     margin: 10px;
     border: 1px solid black;
     background: white;
     height: 150px;
     width: 300px;
+}
+
+div.boxAroundOn{
+    display: flex;
+/*    flex-wrap: wrap;*/
+    margin: 10px;
+    border: 1px solid black;
+    background: lightblue;
+    height: 150px;
+    width: 300px;    
+}
+
+div.descContainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
 }
 
 div.contentDesc{
@@ -91,7 +107,7 @@ div.nameFont{
     font-weight: bold;
 }
 
-div.test{
+div.imageAndDuration{
     border: 1px solid orange;
     display: flex;
     align-items: center;
@@ -129,4 +145,33 @@ div span.timeFont{
     margin-top: 2px;
     font-size: .8em;
     font-weight: bold;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlayStyle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,.15); /* Fallback color */
 }
